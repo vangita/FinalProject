@@ -1,0 +1,35 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__/
+*.env
+.env
+
+# Virtual environment
+venv/
+.virtualenv/
+*.egg-info/
+.eggs/
+*.whl
+
+# Django-related files
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+*.pot
+*.py[co]
+
+# IDEs and text editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+
+
+
+
+
+
