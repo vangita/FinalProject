@@ -6,7 +6,7 @@ from .serializers import PaymentSerializer
 import stripe
 from django.conf import settings
 
-stripe.api_key = settings.STRIPE_SECRET_KEY
+# stripe.api_key = settings.STRIPE_SECRET_KEY
 
 
 class PaymentViewSet(viewsets.ModelViewSet):
